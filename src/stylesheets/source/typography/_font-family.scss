@@ -1,0 +1,6 @@
+$aptos_location: "src/stylesheets/source/aptos";
+
+@font-face {
+    font-family: "Aptos";
+    src: url("#{$aptos_location}/Aptos.ttf") format("truetype");
+}

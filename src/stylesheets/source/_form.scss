@@ -1,0 +1,18 @@
+input{
+    border: 1px solid $primary;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    width: calc(100% - 100px);
+    float: left;
+    outline: none;
+}
+
+label{
+    font-weight: 600;
+    float: left;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    height: 33px;
+}

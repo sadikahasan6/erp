@@ -1,0 +1,21 @@
+@import "../source/variables";
+button{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+button.primary{
+    background-color: $primary;
+    color: white;
+}
+
+button.secondary{
+    background-color: $secondary;
+    color: black;
+}
+

@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Aptos";
+  src: url("src/stylesheets/source/aptos/Aptos.ttf") format("truetype");
+}
+button {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: rgb(59, 15, 36);
+  color: white;
+}
+
+button.secondary {
+  background-color: rgb(192, 178, 185);
+  color: black;
+}
+
+.text-primary {
+  color: rgb(59, 15, 36);
+}
+
+.table {
+  border: 1px solid rgb(59, 15, 36);
+  border-collapse: collapse;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f1f1f5;
+}
+
+.table thead {
+  background-color: rgb(192, 178, 185);
+}
+
+.table td, th {
+  border: 1px solid rgb(59, 15, 36);
+  padding: 5px 10px;
+}
+
+input {
+  border: 1px solid rgb(59, 15, 36);
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  width: calc(100% - 100px);
+  float: left;
+  outline: none;
+}
+
+label {
+  font-weight: 600;
+  float: left;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  height: 33px;
+}
+
+body {
+  font-family: "Aptos";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  padding-top: 40px;
+}
+
+.top-header {
+  background-color: rgb(59, 15, 36);
+  color: white;
+  padding: 8px 15px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 50;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.top-header .component {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 56px;
+  padding: 5px 15px;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgb(233, 233, 233);
+  border-right: 1px solid black;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  display: block;
+  color: rgb(68, 10, 10);
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.sidebar ul li a:hover {
+  background-color: bisque;
+}
+
+.flex {
+  display: flex;
+}
+
+.employee-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employee-info .input {
+  height: calc(100vh - 60px);
+  width: 300px;
+  padding: 10px 25px;
+  overflow-y: scroll;
+  font-size: small;
+}
+
+.employee-info .input ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

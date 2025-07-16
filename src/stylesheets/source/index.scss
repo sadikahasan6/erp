@@ -1,0 +1,92 @@
+@import "../source/typography/font-family.scss";
+@import "../source/variables";
+@import "../source/buttons";
+@import "../source/colors";
+@import "../source/table";
+@import "../source/form";
+
+body {
+    font-family: "Aptos";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    padding-top: 40px;
+}
+
+.top-header {
+    background-color: $primary;
+    color: white;
+    padding: $default_padding;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+    position: fixed;
+    left: 0;
+    right: 0;
+    // width: 100vw;
+}
+
+.top-header .component {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    padding: 5px 15px;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgb(233, 233, 233);
+    border-right: 1px solid black;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    // font-size: large;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(68, 10, 10);
+    padding: 10px;
+    border-radius: 3px;
+}
+.sidebar ul li a:hover{
+    background-color: bisque;
+}
+
+.flex{
+    display: flex;
+}
+
+.employee-info{
+    display: flex;
+    justify-content: space-between;
+}
+.employee-info .input{
+    // background-color: $secondary;
+    height: calc(100vh - 60px);
+    width: 300px;
+    padding: 10px 25px;
+    overflow-y: scroll;
+    font-size: small;
+}
+.employee-info .input ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+}

@@ -1,0 +1,17 @@
+.table{
+    border: 1px solid $primary;
+    border-collapse: collapse;
+
+}
+
+.table tr:nth-child(even) {
+  background-color: #f1f1f5;
+}
+
+.table thead{
+    background-color: $secondary;
+}
+.table td, th{
+    border: 1px solid $primary;
+    padding: 5px 10px;
+}
