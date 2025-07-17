@@ -6,6 +6,7 @@ button {
   background-color: transparent;
   padding: 10px;
   border-radius: 5px;
+  height: 35px;
   border: none;
   display: flex;
   align-items: center;
@@ -61,6 +62,26 @@ label {
   display: flex;
   align-items: center;
   height: 33px;
+}
+
+.modal-container {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 40px);
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.842);
+}
+
+.modal {
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-color: white;
+  height: 80vh;
+  width: 80vw;
 }
 
 body {

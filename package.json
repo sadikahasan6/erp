@@ -30,7 +30,8 @@
 		"@iconify/svelte": "^5.0.0",
 		"drizzle-orm": "^0.40.0",
 		"postgres": "^3.4.5",
-		"sass": "^1.89.2"
+		"sass": "^1.89.2",
+		"zod": "^4.0.5"
 	},
 	"trustedDependencies": [
 		"@parcel/watcher",
